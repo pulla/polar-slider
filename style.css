@@ -1,0 +1,94 @@
+@charset "utf-8";
+html{overflow-y:auto;background-color:#fff}
+body{word-break:break-all}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'나눔고딕',NanumGothic,'돋움',dotum,AppleGothic,sans-serif;font-size:12px}
+img,fieldset{border:0}
+img{vertical-align:top}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+legend{*margin-left:-7px}
+table{border-collapse:collapse;border-spacing:0}
+th{text-align:left}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:none}
+caption,legend,.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:-9999px;width:0;height:0;font-size:0;line-height:0;text-align:left}
+caption{position:static}
+input[type=text]{height:13px;padding:3px 5px 0;border:1px solid #ccc;font-size:11px}
+textarea,.scroll_area{scrollbar-3dlight-color:#fff;scrollbar-arrow-color:#9e9e9f;scrollbar-track-color:#fafafa;scrollbar-darkshadow-color:#fff;scrollbar-face-color:#fff;scrollbar-highlight-color:#dbdbdb;scrollbar-shadow-color:#dbdbdb}
+hr{display:none}
+.fl_clear{clear:both}
+.tx_over{text-overflow:ellipsis;word-wrap:normal;white-space:nowrap}
+
+.wrap{width:100%;min-width:1280px;overflow:hidden}
+.standardbox{width:1280px;margin:0 auto;position:relative}
+.standardbox.v2{width:100%;max-width:1920px}
+.dimmed{z-index:20;position:fixed;top:0;left:0;width:100%;height:100%;background-color:#000;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none}
+.dimmed.on{display:block}
+
+
+
+/* content2 */
+.content2{height:979px;background:url(http://campaign.naver.com/pholar_travel/img/bg_content2.jpg?20160219) 50% 0 no-repeat}
+.content2 .btn_arr_l{width:70px;height:70px;background:url(http://campaign.naver.com/pholar_travel/img/btn_arr_l.png) no-repeat;position:absolute;top:688px;left:80px;z-index:10}
+.content2 .btn_arr_l:hover{width:70px;height:70px;background:url(http://campaign.naver.com/pholar_travel/img/btn_arr_l_ov.png) no-repeat;position:absolute;top:688px;left:80px;z-index:10}
+.content2 .btn_arr_l.off{display:none}
+.content2 .btn_arr_r{width:70px;height:70px;background:url(http://campaign.naver.com/pholar_travel/img/btn_arr_r.png) no-repeat;position:absolute;top:688px;right:80px;z-index:10}
+.content2 .btn_arr_r:hover{width:70px;height:70px;background:url(http://campaign.naver.com/pholar_travel/img/btn_arr_r_ov.png) no-repeat;position:absolute;top:688px;right:80px;z-index:10}
+.content2 .btn_arr_r.off{display:none}
+.content2 .viewbox{width:890px;height:510px;position:absolute;top:215px;overflow:visible}
+.content2 .viewbox .slbox{width:1000%;position:absolute;top:0;transform:translateX(176px);transition: -webkit-transform 0.3s}
+.content2 .viewbox li{float:left}
+.content2 .viewbox .title_area{margin-bottom:6px}
+.content2 .viewbox2{width:1280px;height:673px;position:relative;top:171px}
+.content2 .viewbox2 .img_area{position:absolute;top:0;left:0}
+.content2 .viewbox2 .img_area.v2{left:427px}
+.content2 .viewbox2 .img_area.v3{left:854px}
+.content2 .viewbox2 .img_area.v4{top:401px;left:0}
+.content2 .viewbox2 .img_area.v5{top:401px;left:641px}
+
+.content2 .viewbox2 .img_area .touchslider{width:426px;height:400px;position:relative;overflow:hidden}
+.content2 .viewbox2 .img_area .touchslider.v2{width:640px;height:272px}
+.content2 .viewbox2 .img_area .touchslider .slider_area{width:426px;height:400px;overflow:visible}
+.content2 .viewbox2 .img_area .touchslider.v2 .slider_area{width:640px;height:272px;overflow:visible}
+.content2 .viewbox2 .img_area .touchslider .slider{float:left}
+
+.content2 .viewbox2 .img_area .text_area{width:370px;height:230px;position:absolute;top:85px;left:27px;color:#fff}
+.content2 .viewbox2 .img_area .text_area.v2{width:580px;top:46px;left:30px}
+.content2 .viewbox2 .img_area .text_area .id_img{padding-left:114px;float:left}
+.content2 .viewbox2 .img_area .text_area .id_img.v2{padding-left:214px}
+.content2 .viewbox2 .img_area .text_area .id_text{font-size:16px;padding:19px 0 0 176px}
+.content2 .viewbox2 .img_area .text_area .id_text.v2{padding:19px 0 0 276px}
+.content2 .viewbox2 .img_area .text_area .id_text em{font-weight:bold}
+.content2 .viewbox2 .img_area .text_area h5{font-size:33px;font-weight:normal;line-height:44px;text-align:center;margin:30px 0 23px}
+.content2 .viewbox2 .img_area .text_area .bar{width:54px;height:1px;background:url(http://campaign.naver.com/pholar_travel/img/img_bar.gif) no-repeat;display:block;margin:0 auto}
+.content2 .viewbox2 .img_area .text_area ul{margin-top:24px;font-size:16px;text-align:center}
+.content2 .viewbox2 .img_area .text_area li{display:inline-block;overflow:hidden;max-width:33.333%;margin-left:-4px;font-size:16px;text-align:left;white-space:nowrap;text-overflow:ellipsis}
+.content2 .viewbox2 .img_area .text_area .tag{display:inline;margin:0 5px;text-shadow:0 0 1px rgba(0,0,0,.04);color:#fff}
+.content2 .choice.choice-large{width:426px;height:400px;margin-right:42px; -moz-backface-visibility:hidden; -webkit-backface-visibility:hidden;backface-visibility:hidden; -moz-transition: background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); -o-transition:background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); -webkit-transition:background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);transition: background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);position:relative;overflow:hidden}
+.content2 .choice.choice-large.v2{width:640px;height:272px}
+.content2 .choice.choice-large:after{content:'';position:absolute;left:0px;bottom:-3px;width:150px;height:3px;background-color:#ee0b41; -moz-transition:all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); -o-transition:all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); -webkit-transition:all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);transition:all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}
+.content2 .choice-large-bg{width:426px;height:400px; -moz-transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -o-transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);transition:all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1)}
+.content2 .choice-large-bg.v2{width:640px;height:272px}
+.content2 .choice-large-content{position:relative;z-index:1}
+.content2 .choice-large-bg{border:8px solid #fff;position:absolute;top:-8px;left:-8px;background:none}
+.content2 .choice-large:hover .choice-large-bg{-moz-transform:scale(0.975, 0.975); -ms-transform:scale(0.975, 0.975); -webkit-transform:scale(0.975, 0.975);transform:scale(0.975, 0.975)}
+.content2 .choice-large:hover .choice-large-bg.v2{-moz-transform:scale(0.983, 0.967); -ms-transform:scale(0.983, 0.967); -webkit-transform:scale(0.983, 0.967);transform:scale(0.983, 0.967)}
+.content2 .choice-large:hover .choice-large-bg a{display:block;width:426px;height:400px;background:none}
+.content2 .choice-large:hover .choice-large-bg.v2 a{display:block;width:640px;height:272px;background:none}
+.nav{width:100%;height:20px;text-align:center;position:absolute;left:0;top:896px;display:inline-block;font-size:0}
+.nav a{margin:0 3px;display:inline-block}
+.nav .ico_nav{width:14px;height:14px;background:url(http://campaign.naver.com/pholar_travel/img/ico_nav_off_v2.png) no-repeat}
+.nav .ico_nav.on{background:url(http://campaign.naver.com/pholar_travel/img/ico_nav_on.png) no-repeat;margin:0 6px}
+
+
+.content4 .viewbox .slbox{width:1000%;position:absolute;top:0;transform:translateX(0px);transition: -webkit-transform 0.3s}
+.content4 .viewbox .inbox{float:left}
+.content4 .viewbox .inbox li{width:632px;margin-right:16px;height:316px;background-color:#ebebeb;margin-bottom:16px;position:relative}
+.content4 .viewbox .inbox .img_box{position:relative;width:632px;height:316px;background:url(http://campaign.naver.com/pholar_travel/img/bg_gr.gif) no-repeat}
+
+/* content3 */
+.content3{height:828px;background:url(http://campaign.naver.com/pholar_travel/img/bg_content3.jpg) 50% 0 no-repeat}
+.content3 .btn{width:115px;height:20px;position:absolute;top:621px;left:75px}
+.content3 .btn_down{width:285px;height:62px;background:url(http://campaign.naver.com/pholar_travel/img/btn_down.gif) no-repeat;position:absolute;top:698px;left:495px}
+.content3 .btn_down:hover{width:285px;height:62px;background:url(http://campaign.naver.com/pholar_travel/img/btn_down_ov.gif) no-repeat;position:absolute;top:698px;left:495px}
